@@ -15,18 +15,18 @@ A high-frequency trading (HFT) model for gold (XAU/USD) in MetaTrader 5 (MT5), o
    ```bash
    git clone https://github.com/your-username/IntelligentHFTModel.git
    cd IntelligentHFTModel
-nstall dependencies:bash
-
-pip install -r requirements.txt
+install dependencies:bash
+  ```bash
+  pip install -r requirements.txt
 
 Create directories:bash
-
-mkdir -p gold_checkpoints data
+  ```bash
+  mkdir -p gold_checkpoints data
 
 (Optional) Obtain a free Alpha Vantage API key from https://www.alphavantage.co for real sentiment data.
-
-UsageGenerate Synthetic Data (no API key needed):bash
-
+Usage
+Generate Synthetic Data (no API key needed):bash
+ ```bash
 python data/generate_sample_data.py
 
 Train the Model:bash
